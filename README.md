@@ -129,7 +129,7 @@ To improve the model, it is necessary to clone this repository, a new dataframe 
 
 ## Authors
 
-* [Андрей Макаров](https://t.me/mak100un)(the author of the idea, frontend)
+* [Андрей Макаров](https://t.me/mak100un)(author of idea, frontend)
 * [Егор Орлов](https://t.me/kcoursephis)(backend)
 
 :arrow_up:[To the table of contents](#table-of-contents)
