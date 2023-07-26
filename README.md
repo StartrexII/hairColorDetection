@@ -26,7 +26,7 @@ The request is presented in json format and contains links to images for which i
 * data markup
 * modeling
 * saving a trained model
-* deploy(ready-made project for containerization [here](https://github.com/StartrexII/ClassificationStudy 'GitHub'))
+* deploy(ready-made project for containerization [here](https://github.com/StartrexII/hairDetection_backend 'GitHub'))
 
 example of **complex query** - `/data/tinderData.json`
 
@@ -121,7 +121,7 @@ The dataframe is created from a complex query processed using creationOfDataFram
 
 ## Using
 
-To use the model, you need to install a ready-made assembly for docker [here]('GitHub').
+To use the model, you need to install a ready-made assembly for docker [here](https://github.com/StartrexII/hairDetection_backend 'GitHub').
 
 To improve the model, it is necessary to clone this repository, a new dataframe based on better transformed data can be created by obtaining a new json file with images and running the file `data/creationOfDataFrame.py` after that, you can work on improving the classifier or use an already loaded dataframe(`data/hairColorTrainingData.csv`).
 
