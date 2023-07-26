@@ -38,7 +38,7 @@ for woman in womans:
         result = pd.DataFrame(result, index=[woman])
     except cv2.error:
         continue
-    
-    colors = pd.concat([colors, result], axis=0)
+    else:
+        colors = pd.concat([colors, result], axis=0)
         
 colors.to_csv('data/hairColorsTrainData.csv')
